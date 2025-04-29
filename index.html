@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صيدلية الدكتور أيمن القاضى</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Cairo font to the body */
+        body {
+            font-family: 'Cairo', sans-serif;
+            direction: rtl; /* Ensure RTL direction */
+        }
+        /* Custom styles for the header title */
+        .pharmacy-title {
+            font-size: 2.5rem; /* Larger font size */
+            font-weight: 700; /* Bold */
+            background: linear-gradient(to right, #1e3a8a, #3b82f6); /* Gradient color */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            margin-left: 1rem; /* Space between title and logo */
+        }
+         /* Style for assistant cards */
+        .assistant-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100%; /* Make cards equal height */
+            justify-content: center; /* Center content vertically */
+        }
+        .assistant-card:hover {
+            transform: translateY(-5px); /* Lift card on hover */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Add shadow on hover */
+        }
+        .assistant-card i {
+            margin-bottom: 0.75rem; /* Space below icon */
+            color: #3b82f6; /* Icon color */
+        }
+        .assistant-card p {
+            flex-grow: 1; /* Allow text to take available space */
+            display: flex;
+            align-items: center; /* Center text vertically if needed */
+        }
+        /* Ensure links cover the entire card */
+        .card-link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: inherit; /* Inherit text color */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-white shadow-md py-6 px-4 md:px-8">
+        <div class="container mx-auto flex items-center justify-center md:justify-start">
+            <img src="https://i.imgur.com/LVe9l27.png" alt="شعار صيدلية الدكتور أيمن القاضي" class="h-16 w-16 md:h-20 md:w-20 object-contain rounded-full border-2 border-blue-500 shadow-sm">
+            <h1 class="pharmacy-title text-center md:text-right">
+                صيدلية الدكتور أيمن القاضى
+            </h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-10 mb-16 px-4">
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-blue-700 mb-6 border-b-2 border-blue-300 pb-2">هندسة الأوامر (Prompt Engineering)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-9L30hNkJG-prompt-enhancer" target="_blank" class="card-link">
+                        <i class="fas fa-wand-magic-sparkles fa-3x"></i>
+                        <p class="mt-2 font-semibold text-center">كتابة برومت بشكل احترافى</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-6808e3ab2e0c81918363208b301edafe-photo-prompt-builder" target="_blank" class="card-link">
+                        <i class="fas fa-image fa-3x"></i>
+                        <p class="mt-2 font-semibold text-center">إنشاء برومت للصور باحترافية عالية</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-6808cf44c59c8191ad28a9b7fd99a5f5-prompt-photo-detective" target="_blank" class="card-link">
+                        <i class="fas fa-camera-retro fa-3x"></i>
+                        <p class="mt-2 font-semibold text-center">حول الصورة لبرومت</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-6808e8e92d8c81919954a3d0cf0f73da-video-prompt-generator" target="_blank" class="card-link">
+                        <i class="fas fa-video fa-3x"></i>
+                        <p class="mt-2 font-semibold text-center">Video Prompt Builder</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://superprompt.com/" target="_blank" class="card-link">
+                        <i class="fas fa-star fa-3x"></i>
+                        <p class="mt-2 font-semibold text-center">Super prompt site</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-green-700 mb-6 border-b-2 border-green-300 pb-2">المساعدة العلمية (Scientific Help)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ecab18c8cc8191b0d1c88073c6a2d3-diagnosis-help" target="_blank" class="card-link">
+                        <i class="fas fa-stethoscope fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Diagnosis Help</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ee6288733c8191a29b5582f70a1d0b-qrh-lthlyl-wtqryr-lsh" target="_blank" class="card-link">
+                        <i class="fas fa-file-waveform fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">قراءة التحاليل وتقارير الأشعة</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ee646982008191b18309c16952b210-side-effects-of-drugs" target="_blank" class="card-link">
+                        <i class="fas fa-tablets fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Side Effects Of Drugs</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec9c62e12881918f523e726691ce68-dr-baby" target="_blank" class="card-link">
+                        <i class="fas fa-baby-carriage fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">طبيب الأطفال تطعيمات وتغذية</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec96d7f6648191bfd06fa3b12baddd-pharmaceutical-compounding-expert" target="_blank" class="card-link">
+                        <i class="fas fa-mortar-pestle fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Pharmaceutical Compounding Expert</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec91e64fe88191b30e9d27a32c8093-pregnancy-coach" target="_blank" class="card-link">
+                        <i class="fas fa-person-pregnant fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Pregnancy Coach</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec0521714c81918932325c2c62969d-l-lj-lmnzl-wl-shb" target="_blank" class="card-link">
+                        <i class="fas fa-seedling fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">العلاج المنزلى والأعشاب</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67e7e3ba4e748191867dccaeb685f5eb-khbyr-ltgdhy" target="_blank" class="card-link">
+                        <i class="fas fa-apple-whole fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">خبير الخطط الغذائية والوزن المثالى</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67e75581283c819197571c3823701b6d-dose-calculation" target="_blank" class="card-link">
+                        <i class="fas fa-calculator fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Dose Calculation</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67e53ab1820881919d6c53f0ec4068df-over-dose-and-poison-doctor" target="_blank" class="card-link">
+                        <i class="fas fa-biohazard fa-3x text-red-600"></i>
+                        <p class="mt-2 font-semibold text-center">Over Dose and Poison Doctor</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67e413da38d0819184bf249600495d1f-patient-counselling" target="_blank" class="card-link">
+                        <i class="fas fa-comments-medical fa-3x text-green-600"></i>
+                        <p class="mt-2 font-semibold text-center">Patient Counselling Doctor</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-x3fRgyRkV-drug-interaction-explorer" target="_blank" class="card-link">
+                        <i class="fas fa-arrows-left-right-to-line fa-3x text-orange-500"></i>
+                        <p class="mt-2 font-semibold text-center">Drug-Drug Interaction Doctor</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67fb03c1a9b88191b36b3baaf4a71e1d-dktwr-kbd-wkl-liverkidney-pro" target="_blank" class="card-link">
+                        <i class="fas fa-lungs fa-3x text-green-600"></i> <p class="mt-2 font-semibold text-center">دكتور كبد وكلى</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67fb00e14e188191bbd3f6e3dd70da78-khbyr-lqlb-wldw-cardiopharma-pro" target="_blank" class="card-link">
+                        <i class="fas fa-heart-circle-check fa-3x text-red-500"></i>
+                        <p class="mt-2 font-semibold text-center">خبير القلب والدواء</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67fb60e850948191aaf91c16e0f649a5-d-bshr-wsh-r-stshry-ljldy-wltjmyl" target="_blank" class="card-link">
+                        <i class="fas fa-spa fa-3x text-pink-500"></i>
+                        <p class="mt-2 font-semibold text-center">skin and hair doctor</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-purple-700 mb-6 border-b-2 border-purple-300 pb-2">التسويق وكتابة المحتوى</h2>
+             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ed38f20c888191aa98943b520595ad-success-story-content-creation" target="_blank" class="card-link">
+                        <i class="fas fa-award fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">Success Story Content Creation</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ed368d1c0881919220d7b9d46668f0-khbyr-lmhtw-lfyrwsy-lvyrljy" target="_blank" class="card-link">
+                        <i class="fas fa-rocket fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">خبير المحتوى الفيروسي (الڤايرالجي)</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ed3311d4d08191a80257c7e7abca55-emotional-content-creation" target="_blank" class="card-link">
+                        <i class="fas fa-face-grin-hearts fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">Emotional content creation</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ed2e9afa888191857d7ada8f3f6486-hook-technique-content-creation" target="_blank" class="card-link">
+                        <i class="fas fa-magnet fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">hook technique content creation</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ecb55f2dc48191a82130e3d97a5c07-dd-kht-tswyqy-llsydly" target="_blank" class="card-link">
+                        <i class="fas fa-clipboard-list fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">إعداد خطة تسويقية للصيدلية</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ecb051ed68819196fd1b0615642a0b-khbyr-mhtw-shhr-llsydlyt" target="_blank" class="card-link">
+                        <i class="fas fa-calendar-alt fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">خبير محتوى شهرى للصيدليات</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec0f567d18819181168955449a7053-slwb-coi-tklfh-dm-ltsrf-f-ktb-lmhtw" target="_blank" class="card-link">
+                        <i class="fas fa-hand-holding-dollar fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">إسلوب COI تكلفه عدم التصرف فى كتابة المحتوى</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67ec0c98abd481919fde1d427bf58767-roi-slwb-l-yd-mn-lstthmr-f-ktb-lmhtw" target="_blank" class="card-link">
+                        <i class="fas fa-arrow-trend-up fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">ROI اسلوب العائد من الاستثمار فى كتابة المحتوى</p>
+                    </a>
+                </div>
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67e540e1762c81918c13199adb23f629-ktb-lbwstt-lqssy-storymarketer" target="_blank" class="card-link">
+                        <i class="fas fa-pen-fancy fa-3x text-purple-600"></i>
+                        <p class="mt-2 font-semibold text-center">كاتب البوستات القصصية – StoryMarketer</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-yellow-700 mb-6 border-b-2 border-yellow-300 pb-2">المبيعات (Sales)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                 <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://chatgpt.com/g/g-67eea2605a588191a5f4406da0c2c9b2-professional-salesman" target="_blank" class="card-link">
+                        <i class="fas fa-handshake fa-3x text-yellow-600"></i>
+                        <p class="mt-2 font-semibold text-center">Professional Sales-man</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+         <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-indigo-700 mb-6 border-b-2 border-indigo-300 pb-2">إنشاء الصور (Image Creation)</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://www.insmind.com/workspace/" target="_blank" class="card-link">
+                        <i class="fas fa-images fa-3x text-indigo-600"></i>
+                        <p class="mt-2 font-semibold text-center">اعرض منتجك فى خلفية احترافية</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://piclumen.com/app/image-generator/create" target="_blank" class="card-link">
+                        <i class="fas fa-lightbulb fa-3x text-indigo-600"></i>
+                        <p class="mt-2 font-semibold text-center">piclumen</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://app.leonardo.ai/" target="_blank" class="card-link">
+                        <i class="fas fa-paint-brush fa-3x text-indigo-600"></i>
+                        <p class="mt-2 font-semibold text-center">Leonardo</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://www.recraft.ai/invite/x4k9xGDKAt" target="_blank" class="card-link">
+                        <i class="fas fa-shapes fa-3x text-indigo-600"></i>
+                        <p class="mt-2 font-semibold text-center">Recraft</p>
+                    </a>
+                </div>
+                <div class="assistant-card bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <a href="https://ideogram.ai/t/explore" target="_blank" class="card-link">
+                        <i class="fas fa-i-cursor fa-3x text-indigo-600"></i>
+                        <p class="mt-2 font-semibold text-center">Ideogram</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="container mx-auto text-center">
+            <p class="mb-4 text-lg">
+                لو حابب تحترف الذكاء الاصطناعى وتتعلم أكتر انضم لعائلة
+                <a href="https://wa.me/201040335071" target="_blank" class="text-blue-400 hover:text-blue-300 font-bold underline">DR.AI</a>
+            </p>
+            <p class="text-sm text-gray-400">
+                جميع الحقوق محفوظة لدى DR/Ayman El-Kady©
+                <br>
+                صيدلية الدكتور أيمن القاضى
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
